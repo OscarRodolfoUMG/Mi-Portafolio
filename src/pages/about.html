@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Soluciones Frontend Mentor</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="projects.html">Proyectos</a></li>
+          <li><a href="frontmentor.html">Frontend Mentor</a></li>
+          <li><a href="about.html">Sobre mí</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Formación Academica</h1>
+      <section class="about-section">
+        <div class="info-container">
+          <div class="about-foto">
+            <img
+              src="../img/foto/Foto_Rodolfo.jpeg"
+              alt="Fotografia Rodolfo Chávez"
+            />
+          </div>
+          <div class="about-info">
+            <h2>
+              Pensum Cerrado<br />Ingeniería en Sistemas de Información y
+              Ciencias de la Computación
+            </h2>
+            <h3>Universidad Mariano Galvez de Guatemala</h3>
+          </div>
+        </div>
+      </section>
+
+      <h1>Información de Contacto</h1>
+      <section class="about-section">
+        <div class="contact__container">
+          <div class="address">
+            <h2>Correo Electrónico</h2>
+            <div class="contact-field">
+              <input
+                type="text"
+                id="email"
+                value="rodolfochavezc16@gmail.com"
+                readonly
+              />
+            </div>
+            <button onclick="copiarEmail()">Copiar</button>
+          </div>
+
+          <div class="linkedIn">
+            <h2>LinkedIn</h2>
+            <a href="http://linkedin.com/in/rodolfo-chavez1699">
+              <div class="logo-linkedIn__container">
+                <img src="../img/logos/linkedin_logo.png" alt="Logo LinkedIn" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <h1>Cursos Realizados</h1>
+
+      <section class="about-section">
+        <div class="table__container">
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Institución</th>
+                <th>Fecha</th>
+                <th>Acción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Desarrollador de JavaScript (React)</td>
+                <td>Capacítate para el empleo</td>
+                <td>Septiembre 2024</td>
+                <td>
+                  <button
+                    class="view-btn"
+                    data-img="../img/cursos/Desarrollador de JavaScript (React) - Oscar Rodolfo Chávez Camey_page-0001.jpg"
+                  >
+                    Ver
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Desarrollador de JavaScript (Node JS)</td>
+                <td>Capacítate para el empleo</td>
+                <td>Agosto 2024</td>
+                <td>
+                  <button
+                    class="view-btn"
+                    data-img="../img/cursos/Desarrollador de JavaScript (Node JS)- Oscar Rodolfo Chávez Camey_page-0001.jpg"
+                  >
+                    Ver
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Control de Versiones</td>
+                <td>Capacítate para el empleo</td>
+                <td>Febrero 2024</td>
+                <td>
+                  <button
+                    class="view-btn"
+                    data-img="../img/cursos/Control de Versiones - Capacitate para el Empleo - Oscar Chávez_page-0001.jpg"
+                  >
+                    Ver
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Modal Diploma-->
+        <div id="modal" class="modal">
+          <span class="close-btn">&times;</span>
+          <img class="modal-content" id="modal-img" alt="Diploma" />
+        </div>
+      </section>
+    </main>
+
+    <script src="../scripts/aboutScripts.js"></script>
+  </body>
+</html>
