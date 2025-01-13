@@ -16,6 +16,8 @@ body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient( #5dade2 , #1f618d );
   color: black;
+  min-height: 100vh;
+  
 }
 
 h1{
