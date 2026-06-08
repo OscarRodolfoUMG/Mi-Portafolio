@@ -24,7 +24,6 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  color: #154360;
   .about-info {
     max-width: 30rem;
   }
@@ -46,9 +45,7 @@ h1 {
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  h2{
-    color: #154360;
-  }
+  
   
   input[type="text"] {
     margin-top: 0.6rem;
@@ -64,7 +61,6 @@ h1 {
     font-size: 16px;
     background-color: #007bff;
     color: #fff;
-    border: 3px solid lightblue;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
